@@ -12,21 +12,26 @@ Provides help messages when asked.
 
 Handles goodbye messages like "Bye", "Goodbye".
 
-Documentation Scraping:
+# Documentation Scraping:
 
 Scrapes documentation from a specified URL and displays relevant content when the user asks for documentation.
 
-Natural Language Processing (NLP):
+# Natural Language Processing (NLP):
 
 Uses the NLTK library to understand and respond to user queries more naturally.
 
-Frontend Interface:
+# Frontend Interface:
 
 A clean and responsive chat interface built with HTML and CSS.
 
 Real-time message display with a loading indicator.
 
-Backend API:
+# Backend API:
+
+(# dependencies:
+pip install flask flask-cors requests beautifulsoup4 nltk scikit-learn)
+
+to run application :python app.py
 
 Built with Flask to handle user queries and generate responses.
 
